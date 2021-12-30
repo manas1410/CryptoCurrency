@@ -1,4 +1,6 @@
 # crypto_tracker
+<img src="https://user-images.githubusercontent.com/64586228/147740144-88e53711-0fd6-4dec-b70c-76d4aa99dfa6.png" width="400" height="700"> <img src="https://user-images.githubusercontent.com/64586228/147740148-0f28a55d-b761-4f69-b0d3-115aeb03f507.png" width="400" height="700">
+
 
 A new Flutter project.
 
