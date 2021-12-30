@@ -19,14 +19,14 @@ class _HomeScreenState extends State<HomeScreen>{
   Widget build(BuildContext context){
     return Scaffold(
       body: _screenList[_selectedIndex],
-      backgroundColor: Colors.white,
+      backgroundColor: Color.fromRGBO(11, 12, 54, 1),
       bottomNavigationBar: BottomNavigationBar(items: const <BottomNavigationBarItem> [
         BottomNavigationBarItem(icon: Icon(Icons.stairs), label: 'Crypto',),
         BottomNavigationBarItem(icon: Icon(Icons.flutter_dash), label: 'Flutter Dash',),
         BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile',),
       ],
       currentIndex: _selectedIndex,
-        selectedItemColor: Colors.blue,
+        selectedItemColor: Colors.amber[800],
         onTap: _onItemTapped,
         backgroundColor: Colors.black,
       ),

@@ -49,7 +49,7 @@ class CoinListWidget extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 4.0),
               margin: const EdgeInsets.symmetric(vertical: 10.0,horizontal: 16.0),
               decoration: BoxDecoration(
-                color: Colors.grey[100],
+                color: Color.fromRGBO(0, 0, 0, 0.6),
                 borderRadius: BorderRadius.circular(16.0),
 
               ),
